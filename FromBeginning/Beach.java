@@ -17,8 +17,8 @@ public class Beach extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(15, 10, 60); 
-        this.addObject(new Police("w","d","a","d"), 0, 0);
-        this.addObject(new Police("8","2","4","6"), 15, 10);
+        this.addObject(new Police("w","s","a","d"), 0, 0);
+        this.addObject(new Police("8","2","4","6"), 15, 0);
         //this.addObject(new Police(), 5, 5);
     }
 }
