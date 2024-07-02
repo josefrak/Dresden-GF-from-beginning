@@ -16,6 +16,12 @@ public class Police extends Actor
      * Act - do whatever the Police wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public Police(String up, String down, String left, String right){
+        this.up = up;
+        this.down = down;
+        this.left = left;
+        this.right = right;
+    }
     public void act()
     {
         if (Greenfoot.isKeyDown("w")){
