@@ -14,8 +14,12 @@ public class Police extends Actor
      */
     public void act()
     {
-        if (Greenfoot.isKeyDown("m")){
+        if (Greenfoot.isKeyDown("w")){
+            this.setRotation(270);
             this.move(1);  
-        }    
+        } else if (Greenfoot.isKeyDown("s")){
+            this.setRotation(90);
+            this.move(1);
+        }
     }
 }
