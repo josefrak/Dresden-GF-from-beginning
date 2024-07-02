@@ -14,6 +14,8 @@ public class Police extends Actor
      */
     public void act()
     {
-        this.move(1);        
+        if (Greenfoot.isKeyDown("m")){
+            this.move(1);  
+        }    
     }
 }
