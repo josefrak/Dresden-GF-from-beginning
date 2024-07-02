@@ -10,7 +10,7 @@ public class Beach extends World
 {
 
     /**
-     * Constructor for objects of class MyWorld.
+     * Constructor for objects of class Beach.
      * 
      */
     public Beach()
