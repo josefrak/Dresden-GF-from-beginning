@@ -1,9 +1,10 @@
 #Greenfoot project file
+class.MyWorld.image=cell.jpg
 editor.fx.0.height=839
 editor.fx.0.width=666
 editor.fx.0.x=803
 editor.fx.0.y=37
-height=842
+height=773
 package.numDependencies=0
 package.numTargets=1
 project.charset=UTF-8
@@ -28,7 +29,7 @@ target1.width=120
 target1.x=0
 target1.y=0
 version=3.1.0
-width=790
+width=1093
 world.lastInstantiated=MyWorld
 xPosition=6
 yPosition=38
