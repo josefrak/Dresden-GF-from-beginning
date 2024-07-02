@@ -20,6 +20,12 @@ public class Police extends Actor
         } else if (Greenfoot.isKeyDown("s")){
             this.setRotation(90);
             this.move(1);
+        } else if (Greenfoot.isKeyDown("d")){
+            this.setRotation(0);
+            this.move(1);            
+        } else if (Greenfoot.isKeyDown("a")){
+            this.setRotation(180);
+            this.move(1);            
         }
     }
 }
