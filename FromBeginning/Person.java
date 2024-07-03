@@ -13,7 +13,11 @@ public class Person extends Actor
     public Person(){
         this.delayCounter = 0;
         this.delay = 3;  
-    }       
+    }  
+    public Person(int delay){
+        this.delayCounter = 0;
+        this.delay = delay;  
+    }     
     public void act()
     {
         // Add your action code here.
