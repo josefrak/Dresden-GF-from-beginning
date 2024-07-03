@@ -33,6 +33,9 @@ public class Police extends Actor
         } else {
             this.delayCounter++;
         }
+        if (this.isTouching(Robber.class)){
+            Greenfoot.stop();
+        }
     }
     public void movement()
     {
