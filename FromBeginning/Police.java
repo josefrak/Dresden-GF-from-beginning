@@ -12,8 +12,6 @@ public class Police extends Person
     private String down;
     private String left;
     private String right;
-    private int delay;
-    private int delayCounter;
     /**
      * Act - do whatever the Police wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
