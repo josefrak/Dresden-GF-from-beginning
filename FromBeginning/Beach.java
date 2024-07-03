@@ -29,10 +29,12 @@ public class Beach extends World
     public void endTheGame(boolean win){
         int x = this.getWidth()/2;
         int y = this.getHeight()/2;
+        String message;
         if (win){
-            this.showText("The robber was caught", x,y);
+            message = "The robber was caught";
         } else {
-            this.showText("The robber escaped", x,y);
+            message = "The robber escaped";
         }
+        this.showText(message, x, y);
     }
 }
