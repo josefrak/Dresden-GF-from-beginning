@@ -38,4 +38,7 @@ public class Beach extends World
         this.showText(message, x, y);
         Greenfoot.stop();
     }
+    public void act(){
+        
+    }
 }
