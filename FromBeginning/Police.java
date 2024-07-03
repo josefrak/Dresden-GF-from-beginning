@@ -23,12 +23,7 @@ public class Police extends Person
         this.right = right;
     }
     public void act(){
-        if (this.delayCounter == this.delay){
-            this.movement();
-            this.delayCounter=0;
-        } else {
-            this.delayCounter++;
-        }
+        super.act();
         if (this.isTouching(Robber.class)){
             Greenfoot.stop();
         }
