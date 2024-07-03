@@ -36,5 +36,6 @@ public class Beach extends World
             message = "The robber escaped";
         }
         this.showText(message, x, y);
+        Greenfoot.stop();
     }
 }

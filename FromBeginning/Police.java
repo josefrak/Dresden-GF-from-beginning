@@ -26,7 +26,7 @@ public class Police extends Person
     public void act(){
         super.act();
         if (this.isTouching(Robber.class)){
-            Greenfoot.stop();
+            
         }
     }
     public void movement()
