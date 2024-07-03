@@ -33,6 +33,8 @@ public class Beach extends World
             message = "The robber escaped";
         }
         this.showText(message, x, y);
+        Greenfoot.delay(40);
+        this.showText(null, x, y);
         Greenfoot.stop();
     }
     public void act(){
