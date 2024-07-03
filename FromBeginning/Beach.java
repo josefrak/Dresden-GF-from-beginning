@@ -23,6 +23,7 @@ public class Beach extends World
         //this.addObject(new Police(), 5, 5);
     }
     public void endTheGame(boolean win){
+        this.removeObjects(this.getObjects(Actor.class));
         int x = this.getWidth()/2;
         int y = this.getHeight()/2;
         String message;
