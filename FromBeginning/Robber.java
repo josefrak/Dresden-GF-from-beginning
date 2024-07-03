@@ -29,6 +29,7 @@ public class Robber extends Actor
         }
     }
     public void movement(){
-        
+        this.setRotation(90*Greenfoot.getRandomNumber(4));
+        this.move(1);
     }
 }
