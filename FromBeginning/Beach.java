@@ -26,4 +26,7 @@ public class Beach extends World
         //this.addObject(new Police("8","2","4","6"), 15, 0);
         //this.addObject(new Police(), 5, 5);
     }
+    public void endTheGame(){
+        
+    }
 }
