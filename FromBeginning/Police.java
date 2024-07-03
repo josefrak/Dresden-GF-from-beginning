@@ -43,13 +43,16 @@ public class Police extends Person
             this.setLocation(x, y-1);
         } else if (Greenfoot.isKeyDown(down)){
             this.setRotation(90);
-            this.move(1);
+            //this.move(1);
+            this.setLocation(x, y+1);
         } else if (Greenfoot.isKeyDown(right)){
             this.setRotation(0);
-            this.move(1);            
+            //this.move(1);       
+            this.setLocation(x+1, y);
         } else if (Greenfoot.isKeyDown(left)){
             this.setRotation(180);
-            this.move(1);            
+            //this.move(1);    
+            this.setLocation(x-1, y);
         }
     }
 }
