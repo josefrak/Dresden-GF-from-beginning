@@ -26,4 +26,5 @@ public class Person extends Actor
             this.delayCounter++;
         }
     }
+    public abstract void movement();
 }
