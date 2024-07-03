@@ -49,6 +49,11 @@ public class Beach extends World
         //this.addObject(new HidingSpot(),5,5);
         int x = 0;
         int y = 0;
+        
+        for(int i = 0; i < 10 ; i++){
+            
+        }
+        
         while(!this.getObjectsAt(x,y,Police.class).isEmpty()){
             x = Greenfoot.getRandomNumber(this.getWidth());
             y = Greenfoot.getRandomNumber(this.getHeight());
