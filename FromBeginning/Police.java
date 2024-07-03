@@ -17,6 +17,7 @@ public class Police extends Person
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public Police(String up, String down, String left, String right){
+        super(3);
         this.up = up;
         this.down = down;
         this.left = left;
