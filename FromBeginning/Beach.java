@@ -35,6 +35,7 @@ public class Beach extends World
         this.showText(message, x, y);
         Greenfoot.delay(40);
         this.showText(null, x, y);
+        this.prepareTheBeach();
         Greenfoot.stop();
     }
     public void act(){
