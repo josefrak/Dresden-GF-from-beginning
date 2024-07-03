@@ -28,7 +28,7 @@ public class Police extends Person
             Greenfoot.stop();
         }
     }
-    /*public void movement()
+    public void movement()
     {
         if (Greenfoot.isKeyDown(up)){
             this.setRotation(270);
@@ -43,5 +43,5 @@ public class Police extends Person
             this.setRotation(180);
             this.move(1);            
         }
-    }*/
+    }
 }
