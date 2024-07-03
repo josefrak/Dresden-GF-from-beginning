@@ -19,6 +19,11 @@ public class Person extends Actor
     }     
     public void act()
     {
-        // Add your action code here.
+        if (this.delayCounter == this.delay){
+            this.movement();
+            this.delayCounter=0;
+        } else {
+            this.delayCounter++;
+        }
     }
 }
