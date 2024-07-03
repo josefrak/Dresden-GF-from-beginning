@@ -46,6 +46,7 @@ public class Beach extends World
     }
     private void prepareTheBeach(){
         this.addObject(new Police("w","s","a","d"), 0, 0);
+        this.addObject(new HidingSpot(),5,5);
         this.addObject(
             new Robber(), 
             Greenfoot.getRandomNumber(this.getWidth()), 
