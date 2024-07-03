@@ -47,18 +47,20 @@ public class Beach extends World
     private void prepareTheBeach(){
         this.addObject(new Police("w","s","a","d"), 0, 0);
         //this.addObject(new HidingSpot(),5,5);
-        int x = 0;
-        int y = 0;
+
         
         for(int i = 0; i < 10 ; i++){
-            
+            int x = 0;
+            int y = 0;
+            while(!this.getObjectsAt(x,y,Police.class).isEmpty()){
+                x = Greenfoot.getRandomNumber(this.getWidth());
+                y = Greenfoot.getRandomNumber(this.getHeight());
+            } 
+            this.addObject(new HidingSpot(),x,y);
         }
         
-        while(!this.getObjectsAt(x,y,Police.class).isEmpty()){
-            x = Greenfoot.getRandomNumber(this.getWidth());
-            y = Greenfoot.getRandomNumber(this.getHeight());
-        }
-        this.addObject(new HidingSpot(),x,y);
+
+
         this.addObject(
             new Robber(), 
             Greenfoot.getRandomNumber(this.getWidth()), 
