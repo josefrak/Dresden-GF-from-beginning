@@ -41,6 +41,9 @@ public class Beach extends World
         Greenfoot.stop();
     }
     public void act(){
-        
+        this.counter--;
+        if (counter == 0){
+            this.endTheGame(false);
+        }
     }
 }
