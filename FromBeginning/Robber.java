@@ -8,8 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Robber extends Person
 {
-    private int delay;
-    private int delayCounter;
     /**
      * Act - do whatever the Robber wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
