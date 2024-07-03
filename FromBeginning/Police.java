@@ -26,7 +26,9 @@ public class Police extends Person
     public void act(){
         super.act();
         if (this.isTouching(Robber.class)){
-            
+            World world = this.getWorld();
+            Beach beach = (Beach)world;
+            beach.endTheGame(true);
         }
     }
     public void movement()
