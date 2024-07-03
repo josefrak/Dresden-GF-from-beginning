@@ -1,12 +1,15 @@
 #Greenfoot project file
 class.Beach.image=cell.jpg
 class.Police.image=man.png
+dependency1.from=Beach
+dependency1.to=Police
+dependency1.type=UsesDependency
 editor.fx.0.height=839
-editor.fx.0.width=666
-editor.fx.0.x=793
+editor.fx.0.width=739
+editor.fx.0.x=720
 editor.fx.0.y=37
 height=773
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=2
 project.charset=UTF-8
 publish.hasSource=false
