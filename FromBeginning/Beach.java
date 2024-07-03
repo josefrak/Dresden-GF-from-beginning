@@ -52,7 +52,7 @@ public class Beach extends World
         for(int i = 0; i < 10 ; i++){
             int x = 0;
             int y = 0;
-            while(!this.getObjectsAt(x,y,Police.class).isEmpty()){
+            while(!this.getObjectsAt(x,y,Actor.class).isEmpty()){
                 x = Greenfoot.getRandomNumber(this.getWidth());
                 y = Greenfoot.getRandomNumber(this.getHeight());
             } 
