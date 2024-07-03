@@ -58,6 +58,8 @@ public class Police extends Person
             //this.setLocation(x-1, y);
             x--;
         }
-        this.setLocation(x,y);
+        if (this.getWorld().getObjectsAt(x,y,HidingSpot.class).isEmpty()){
+            this.setLocation(x,y);
+        }    
     }
 }
