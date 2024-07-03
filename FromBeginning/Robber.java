@@ -13,8 +13,7 @@ public class Robber extends Person
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public Robber(){
-        this.delayCounter = 0;
-        this.delay = 3;
+        super(6);
     }
     public void act()
     {
