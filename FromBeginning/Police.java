@@ -35,9 +35,12 @@ public class Police extends Person
     }
     public void movement()
     {
+        int x = this.getX();
+        int y = this.getY();
         if (Greenfoot.isKeyDown(up)){
             this.setRotation(270);
-            this.move(1);  
+            //this.move(1); 
+            this.setLocation(x, y-1);
         } else if (Greenfoot.isKeyDown(down)){
             this.setRotation(90);
             this.move(1);
