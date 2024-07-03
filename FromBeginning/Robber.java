@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Robber extends Actor
+public class Robber extends Person
 {
     private int delay;
     private int delayCounter;
