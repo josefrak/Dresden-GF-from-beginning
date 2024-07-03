@@ -11,8 +11,7 @@ public class Person extends Actor
     private int delay;
     private int delayCounter;
     public Person(){
-        this.delayCounter = 0;
-        this.delay = 3;  
+        this(3); 
     }  
     public Person(int delay){
         this.delayCounter = 0;
