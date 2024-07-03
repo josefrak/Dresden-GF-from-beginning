@@ -52,6 +52,6 @@ public class Beach extends World
             Greenfoot.getRandomNumber(this.getWidth()), 
             Greenfoot.getRandomNumber(this.getHeight())
         );
-        this.counter = 100;        
+        this.counter = 500;        
     }
 }
