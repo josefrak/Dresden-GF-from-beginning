@@ -21,8 +21,6 @@ public class Police extends Person
         this.down = down;
         this.left = left;
         this.right = right;
-        this.delayCounter = 0;
-        this.delay = 3;
     }
     public void act(){
         if (this.delayCounter == this.delay){
