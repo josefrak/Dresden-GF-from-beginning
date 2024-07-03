@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Beach extends World
 {
+    private int counter;
     /**
      * Constructor for objects of class Beach
      * .
@@ -23,6 +24,7 @@ public class Beach extends World
             Greenfoot.getRandomNumber(this.getWidth()), 
             Greenfoot.getRandomNumber(this.getHeight())
         );
+        this.counter = 100;
         //this.addObject(new Police("8","2","4","6"), 15, 0);
         //this.addObject(new Police(), 5, 5);
     }
